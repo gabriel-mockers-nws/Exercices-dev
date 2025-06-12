@@ -47,12 +47,12 @@ function foobuzz()
         {
             if (nb / 3 ) 
             {
-                console.log(nb + 1 + "foo");
+                console.log(nb + 1 + " foo");
             }   
 
             if (nb / 5 ) 
             {
-                console.log(nb + 1 + "buzz");
+                console.log(nb + 1 + " buzz");
             }
         };
 
