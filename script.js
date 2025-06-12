@@ -41,23 +41,21 @@ function ChoixFruit (fruit)
 function foobuzz()
 
 {
-    for (let nb = 1; nb < 101; nb++) 
+
+
+    for (let nb = 0; nb < 100; nb++) 
         {
-            if (nb % 15 === 0) 
+            if (nb / 3 ) 
             {
-                console.log(nb + " foobuzz");
-            } 
-            else if (nb % 3 === 0) 
-            {
-                console.log(nb + " foo");
+                console.log(nb + 1 + "foo");
             }   
-            else if (nb % 5 === 0) {
-                console.log(nb + " buzz");
-            }
-            else {
-                console.log(nb);
+
+            if (nb / 5 ) 
+            {
+                console.log(nb + 1 + "buzz");
             }
         };
+
 } foobuzz()
 
 // // EXERCICE 4 — Modulo Game // 
